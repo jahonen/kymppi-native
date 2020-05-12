@@ -1,14 +1,16 @@
 # kymppi-native
 React native frontend for kymppi app
 
-Requires:
+To get started run the following to install the pinned dependencies from `package-lock.json`:
 
-$ npm install
+```bash
+npm ci
+```
 
-$ npm install react-navigation react-navigation-stack react-navigation-tabs react-native-elements
+After that start the app by running
 
-$ npm start
+```bash
+npm start
+```
 
-install "expo" app on your mobile device
-
-Once you have started expo from the terminal, ensure your mobile device is on the same network and use the QR-code to connect to your expo server
+Install [Expo](https://expo.io/) on your mobile device and use the QR-code to connect to your expo server
